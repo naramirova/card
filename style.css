@@ -1,0 +1,124 @@
+ body {
+     background-color: bisque;
+     background-image: url('img/fil.png');
+     background-position: right bottom;
+     background-size: 400px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background: #ffe4c4 url('img/fil.png') right bottom/400px no-repeat fixed;
+ }
+
+ h1 {
+     /*
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1em(nisbeten yaziya);
+     font-weight: 400;
+     font-style: italic;
+     font-variant: small-caps;
+     */
+     font: italic small-caps400 2.4em Arial, Helvetica, sans-serif;
+     background-color: white;
+     width: 800px;
+     border: 3px dashed red;
+     border-radius: 15px;
+     padding: 20px;
+     text-align: center;
+     margin: auto;
+ }
+
+ h2 {
+     font: bold 1.8em Arial, Helvetica, sans-serif;
+     color: white;
+     text-align: center;
+     text-decoration: underline wavy red;
+     text-transform: uppercase;
+     text-shadow: 2px 1px 3px black;
+     letter-spacing: 10px;
+     word-spacing: 20px;
+ }
+
+ ul {
+     list-style: '💌';
+ }
+
+ #menu {
+     list-style: none;
+     padding: 0;
+     text-align: center;
+ }
+
+ #menu li a {
+     display: inline-block;
+     width: 200px;
+     padding: 10px;
+     margin: 5px;
+     text-decoration: none;
+     text-align: center;
+     font: bold 1.1em Arial sans-serif;
+     color: white;
+     background-color: orange;
+     border-radius: 10px;
+ }
+
+ #menu li a:link {}
+
+ #menu li a:visited {}
+
+ #menu li a:hover {
+     color: orange;
+     background-color: white;
+ }
+
+ #menu li a:active {
+     color: red;
+     background-color: yellow;
+ }
+
+ #menu li {
+     display: inline-block;
+ }
+
+ p {
+     font: normal 1em/1.5 Arial, Tahoma, sans-serif;
+     /* line-height: 1.5; */
+     text-align: justify;
+     text-indent: 3em;
+     background-color: white;
+ }
+
+ img {
+     width: 350px;
+     object-fit: cover;
+     border: 1px solid #333333;
+     float: left;
+     margin: 0 30px 10px 0;
+     padding: 20px 20px 20px 20px;
+     background-color: white;
+     box-shadow: 3px 2px 10px #333;
+     border-radius: 50%;
+     shape-outside: circle();
+ }
+
+ #epigraf {
+     font-style: italic;
+     text-indent: 0;
+     text-align: right;
+     letter-spacing: 3px;
+     color: green;
+ }
+
+ .red {
+     color: red;
+ }
+
+ .blue {
+     color: blue;
+ }
+
+ li.red {
+     font-weight: bold;
+ }
+
+ li.blue {
+     font-weight: italic;
+ }
